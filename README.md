@@ -34,15 +34,15 @@ Para executar os programas:
 
 tp1_adsd, use a seguinte sintaxe:
 
-./tp1_adsd <tempo_execucao> <num_nodos> <lista de nodos falhos>
+./tp1_adsd {tempo_execucao} {num_nodos} {lista de nodos falhos}
 
 onde:
 
-<tempo_execucao>: tempo total de simulacao. 
+{tempo_execucao}: tempo total de simulacao. 
 
-<num_nodos>: numero total de nodos existentes no sistema simulado
+{num_nodos}: numero total de nodos existentes no sistema simulado
 
-<lista de nodos falhos>: indique os IDs de nodos e em que momento o nodo falha.
+{lista de nodos falhos}: indique os IDs de nodos e em que momento o nodo falha.
 
 Por exemplo: ./tp1_adsd 200 8 1 10 4 10 5 10 
 
