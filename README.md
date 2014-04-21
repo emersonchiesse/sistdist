@@ -25,22 +25,27 @@ tp1_adsd.c - implementação do algoritmo adaptive-DSD, com reliable broadcast d
 
 smpl.h e smpl.c: biblioteca de simulação SMPL
 
+adsd.log - log de execução do adsptive-DSD para um evento de falha.
 
-Para compilar todos os programas, basta baixar todos os arquivos e executar:
+adsd2.log - log de execução do adsptive-DSD para dois eventos de falha.
+
+adsd3.log - log de execução do adsptive-DSD para tres eventos de falha.
+
+
+Para compilar todos os programas, basta baixar todos os arquivos e executar o make:
 
 caso use o git, use:
 
 git clone https://github.com/emersonchiesse/sistdist
 
 
-Para compilar:
+Para compilar, execute:
 
 make
 
 -----------------------
 
 Para executar os programas:
-
 
 tp1_adsd, use a seguinte sintaxe:
 
@@ -62,7 +67,7 @@ o sistema executará 200 unidades de tempo, com 8 nodos, e o nodo 1 falha no mom
 
 --------------------
 
-CONSIDERAÇÕES SOBRE O TP1_ADSD
+CONSIDERAÇÕES SOBRE O TRABALHO PRATICO #1 - PROGRAMA TP1_ADSD
 
 Enunciado:
 "implementar o algoritmo Adaptive-DSD utilizando o SMPL. 
@@ -81,7 +86,7 @@ Enunciado:
 Detalhes da implementação:
 
 . nesta versão, o programa aceita varios parâmetros, indicando o numero total de nodos do sistema e quais nodos estão 
-  falhos em determinado momento. Do mesmo modo, no futuro poderá ser implementado a indicação de recuperação de 
+  falhos em determinado momento. Do mesmo modo, no futuro poderá ser implementada a indicação de recuperação de 
   determinados nodos em certo momento, simulando mais situações para validação do algoritmo.
 
 . não foi implementado tratamento completo de erros na inserção dos parâmetros na execução do programa, ou seja, 
@@ -106,9 +111,17 @@ envia_msg: implementa a difusao confiavel. Envia "mensagens" a todos os nodos, a
 
 ----------------------
 
-Logs de saída dos programa tp1_adsd.c: 
-Para a execução de um sistema com 8 nodos, com os nodos 1, 4 e 5 falhos, tem-se o log mostrado no arquivo
-tp1_adsd.log.
+Os Logs de saída dos programa tp1_adsd.c, para cada caso, sao: 
+. um evento: adsd1.log
+
+
+. dois eventos: adsd2.log
+
+
+. tres eventos: adsd3.log. 
+  sistema de 8 nodos, com os nodos falhos 3, 5 e 6.
+  Executado com a linha de execucao ./tp1_adsd 200 8 3 10 5 10 6 10 > adsd3.log
+
 
 
 
