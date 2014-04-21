@@ -1,3 +1,13 @@
+/*
+ * tp1_adsd: programa que simula diagnostico em um sistema distribuido, usando implementacao
+ * do algoritmo Adaptive-DSD e difusão confiável, com a bilbioteca smpl.
+ *
+ * Autor: Emerson Luiz Chiesse da Silva
+ * Disciplina: Sistemas Distribuidos
+ * Instituicao: UFPR
+ * data da ultima atualizacao: 21 abr 2014
+ */
+
 # include <stdio.h>
 # include <stdlib.h>
 # include "smpl.h"
@@ -27,7 +37,7 @@ typedef struct{
 
 tnodo *nodo;
 
-/* imprine estados dos nodos */
+/* imprine uma sindrome, contida no nodo x, da estrutura de nodos n, com no N nodos. */
 print_state (int x, tnodo n, int N)
 {
 	int i;
@@ -39,8 +49,12 @@ print_state (int x, tnodo n, int N)
 
 /*
  * verifica_rodada_de_testes:
+ * verifica na estrutura de nodos n, com N nodos, se uma rodada de testes foi concluida.
  * retorna true se terminou rodada; false se nao terminou
  * verifica os nodos sem falha e se o nodo testou algum nodo sem falha
+ *
+ * checa em todos os nodos sem falha se tal nodo testou algum outro nodo sem falha
+ * caso tenha encerrado uma rodada, reinicia a contagem.
  */
 int verifica_rodada_de_testes (tnodo *n, int N)
 {
@@ -65,10 +79,13 @@ int verifica_rodada_de_testes (tnodo *n, int N)
 }
 
 /*
- * verifica se a latencia foi atingida.
+ * checa_latencia:
+ * verifica na estrutura de nodos n, com N nodos, se a latencia foi atingida.
+ * (a latencia eh o numero de rodadas de testes em que todo o sistema possui o diagnostico)
+ *
  * 1. conta quantos nodos sem falha.
- *   se nao tem nodos sem falha, nao tem diagnostico
- *   se tem apenas um nodo sem falha, ja possui o diagnostico
+ * 2.  se nao tem nodos sem falha, nao tem diagnostico
+ * 3.  se tem apenas um nodo sem falha, ja possui o diagnostico
  *
  * procura o primeiro nodo sem falha, e compara o vetor state do proximo nodo sem falha
  * se todos os nodos sem falha possuem a mesma sindrome, o sistema estah diagnosticado
@@ -101,7 +118,7 @@ int checa_latencia (tnodo *n, int N)
 	j = i+1;
 
 	// compara com os demais nodos sem falha. na primeira diferenca, sai fora. e a latencia
-	// nao terminou
+	// nao terminou. se todos forem iguais, terminou a latencia
 	while (j < N)
 	{
 		while ((status(n[j].id) != 0))
@@ -115,14 +132,17 @@ int checa_latencia (tnodo *n, int N)
 		}
 		j++;
 	}
+
 	return true;
 }
 
 /*
- * envia_msg: atualiza estado de nodo para outros nodos.
- * envia msg para todos os outros nodos, exceto de quem enviou.
+ * envia_msg:
+ * na estrutura de 'nodos', com N nodos, atualiza 'estado' do nodo 'testado', para outros nodos.
+ * envia msg para todos os outros nodos, exceto de quem enviou ('testador').
+ * incrementa o contador 'msg' com o numero de mensagens difundidas
  */
-envia_msg (tnodo *n, int N, int testador, int testado, int estado, int *msg)
+envia_msg (tnodo *nodos, int N, int testador, int testado, int estado, int *msg)
 {
 	int i;
 	for (i = 0; i < N; i++)
@@ -130,13 +150,13 @@ envia_msg (tnodo *n, int N, int testador, int testado, int estado, int *msg)
 		if (testador != testado)
 		{
 			// se nodo sem falha, atualiza
-			if ((status(n[i].id) == 0))
+			if ((status(nodos[i].id) == 0))
 			{
 				printf ("atualizando estado no nodo %d\n", i);
 				if (estado == estado_semfalha)
-					nodo [i].state[testador] = testado;
+					nodos [i].state[testador] = testado;
 				else
-					nodo [i].state[testado] = estado_comfalha;
+					nodos [i].state[testado] = estado_comfalha;
 				*msg = *msg + 1;
 			}
 		}
@@ -213,11 +233,11 @@ main ( int argc, char *argv[]){
             do
             {
             	j = (j+1) % N;
-            	printf ("testando o nodo %d:. seu estado anterior era: %d.\n", j, nodo[token].state[j]);
+            	printf ("\ntestando o nodo %d:. seu estado anterior era: %d. ", j, nodo[token].state[j]);
 
 				if (status(nodo[j].id)==0) /* se nodo j sem falha, sai do loop*/
 				{
-					printf ("sem falha.\n");
+					printf ("agora sem falha. encerra testes de outros nodos.\n");
 
 					nodo[token].testouSemFalha = 1; // para contabilizar rodada de testes
 
@@ -227,18 +247,18 @@ main ( int argc, char *argv[]){
 					if (nodo[token].state[j] != 0) // mudou o estado, estava falho
 					{
 						// envia msg para todos os outros nodos
-						printf ("mudou estado do nodo. enviando mensagens...\n");
+						printf ("mudou estado do nodo. enviando mensagens para outros nodos sem falha...\n");
 						envia_msg (nodo, N, token, j, estado_semfalha, &mensagens);
 						printf ("enviou %d mensagens\n", mensagens);
 					}
 				}
 				else
 				{
-					printf ("com falha.\n");
+					printf ("agora com falha.\n");
 					if (nodo[token].state[token] != j) // mudou o estado, estava sem falha
 					{
 						// envia msg para todos os outros nodos
-						printf ("mudou estado do nodo. enviando mensagens...\n");
+						printf ("mudou estado do nodo. enviando mensagens para outros nodos sem falha...\n");
 						envia_msg (nodo, N, token, j, estado_comfalha, &mensagens);
 						printf ("enviou %d mensagens\n", mensagens);
 					}
@@ -262,16 +282,16 @@ main ( int argc, char *argv[]){
 			{
 				rodadas ++;
 				printf ("terminou rodada %d\n", rodadas);
+
+				if (checa_latencia (nodo, N))
+				{
+					printf ("terminou diag, com latencia de %d rodadas.\n\n", rodadas);
+				}
+				else
+					printf ("nao terminou diag.\n\n");
 			}
 			else
 				printf ("nao terminou rodada de testes.\n");
-
-			if (checa_latencia (nodo, N))
-			{
-				printf ("terminou diag, com latencia de %d rodadas.\n\n", rodadas);
-			}
-			else
-				printf ("nao terminou diag.\n\n");
 
             schedule (test, 30.0, token);
 
