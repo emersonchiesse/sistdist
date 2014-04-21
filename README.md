@@ -80,7 +80,13 @@ Enunciado:
 
 Detalhes da implementação:
 
-. não foi implementado tratamento de erros na inserção dos parâmetros na execução do programa, ou seja, todos os parêmetros devem ser inseridos corretamente, caso contrário, poderão ocorrer falha na execução.
+. nesta versão, o programa aceita varios parâmetros, indicando o numero total de nodos do sistema e quais nodos estão 
+  falhos em determinado momento. Do mesmo modo, no futuro poderá ser implementado a indicação de recuperação de 
+  determinados nodos em certo momento, simulando mais situações para validação do algoritmo.
+
+. não foi implementado tratamento completo de erros na inserção dos parâmetros na execução do programa, ou seja, 
+  todos os parâmetros devem ser inseridos corretamente, caso contrário, ocorrerá falha na execução, pois não é foco
+  da tarefa e dispensa trabalho fora do contexto.
 
 
 . A implementação do algoritmo adaptive-DSD possui as seguintes funções principais:
@@ -92,8 +98,17 @@ verifica_rodada_de_testes: contabiliza as rodadas de testes, e incrementa a vari
 checa_latencia: verifica se o sistema terminou um diagnóstico completo.
 
 
+envia_msg: implementa a difusao confiavel. Envia "mensagens" a todos os nodos, atualizando o novo 
+  estado de determinado nodo para todos os demais nodos. O envio de mensagens foi 
+  implementado nesta função, que internamente atualiza o vetor state do nodo destino,
+  e contabiliza esta atualização como sendo uma mensagem.
+ 
+
 ----------------------
 
-Logs de saída dos programa tp1_adsd.c:
+Logs de saída dos programa tp1_adsd.c: 
+Para a execução de um sistema com 8 nodos, com os nodos 1, 4 e 5 falhos, tem-se o log mostrado no arquivo
+tp1_adsd.log.
+
 
 
