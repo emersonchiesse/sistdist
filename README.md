@@ -24,10 +24,43 @@ tp1_adsd.c - implementação do algoritmo adaptive-DSD, com reliable broadcast d
 smpl.h e smpl.c: biblioteca de simulação SMPL
 
 
+Para compilar todos os programas, basta baixar todos os arquivos e executar:
 
-A implementação do algoritmo adaptive-DSD possui as seguintes funções principais:
+make
 
-verifica_rodada_de_testes: 
+
+Para executar os programas:
+
+
+tp1_adsd, use a seguinte sintaxe:
+
+./tp1_adsd <tempo_execucao> <num_nodos> <lista de nodos falhos>
+
+onde:
+
+<tempo_execucao>: tempo total de simulacao. 
+
+<num_nodos>: numero total de nodos existentes no sistema simulado
+
+<lista de nodos falhos>: indique os IDs de nodos e em que momento o nodo falha.
+
+Por exemplo: ./tp1_adsd 200 8 1 10 4 10 5 10 
+
+o sistema executará 200 unidades de tempo, com 8 nodos, e o nodo 1 falha no momento 10, o nodo 1 falha no tempo 10, e o nodo 5 falha no tempo 10.
+
+
+
+CONSIDERAÇÕES SOBRE O TP1_ADSD
+
+
+. não foi implementado tratamento de erros na inserção dos parâmetros na execução do programa, ou seja, todos os parêmetros devem ser inseridos corretamente, caso contrário, poderão ocorrer falha na execução.
+
+
+. A implementação do algoritmo adaptive-DSD possui as seguintes funções principais:
+
+
+verifica_rodada_de_testes: contabiliza as rodadas de testes, e incrementa a variável 'rodadas'.
+
 
 checa_latencia: verifica se o sistema terminou um diagnóstico completo.
 
