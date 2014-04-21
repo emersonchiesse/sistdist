@@ -18,7 +18,11 @@ tp1_2.c - tarefa 2: cada nodo sem falha executa testes sequencialmente ate encon
 tp1_3.c - tarefa 3: cada nodo mantem um vetor local state [0..N-1] e atualiza as entradas correspondentes ao testar.
 
 tp1_4.c - tarefa 4:cada nodo ao testar um nodo sem falha, o testador obtem info sobre todos os nodos que nao testou.
+
 tp1_adsd.c - implementação do algoritmo adaptive-DSD, com reliable broadcast de mensagens em novos eventos.
+
+smpl.h e smpl.c: biblioteca de simulação SMPL
+
 
 
 A implementação do algoritmo adaptive-DSD possui as seguintes funções principais:
@@ -29,4 +33,6 @@ checa_latencia: verifica se o sistema terminou um diagnóstico completo.
 
 
 
-Logs de saída dos programas:
+Logs de saída dos programa tp1_adsd.c:
+
+
