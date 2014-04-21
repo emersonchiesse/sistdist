@@ -28,7 +28,14 @@ smpl.h e smpl.c: biblioteca de simulação SMPL
 
 Para compilar todos os programas, basta baixar todos os arquivos e executar:
 
-make
+caso use o git, use
+
+#git clone https://github.com/emersonchiesse/sistdist
+
+
+Para compilar:
+
+#make
 
 -----------------------
 
