@@ -6,6 +6,8 @@ Este repositório contém informações sobre Trabalhos Práticos da disciplina 
 Os programas desenvolvidos usam a biblioteca SMPL, de simulação de eventos em nodos.
 
 
+---------------------
+
 Contém os seguintes arquivos:
 
 
@@ -28,6 +30,7 @@ Para compilar todos os programas, basta baixar todos os arquivos e executar:
 
 make
 
+-----------------------
 
 Para executar os programas:
 
@@ -42,13 +45,15 @@ onde:
 
 {num_nodos}: numero total de nodos existentes no sistema simulado
 
-{lista de nodos falhos}: indique os IDs de nodos e em que momento o nodo falha.
+{lista de nodos falhos}: indique os IDs de nodos e em que momento o nodo falha, no formato {nodo1 tempo1 nodo 2 tempo2 ... nodon tempon}
+
 
 Por exemplo: ./tp1_adsd 200 8 1 10 4 10 5 10 
 
 o sistema executará 200 unidades de tempo, com 8 nodos, e o nodo 1 falha no momento 10, o nodo 1 falha no tempo 10, e o nodo 5 falha no tempo 10.
 
 
+--------------------
 
 CONSIDERAÇÕES SOBRE O TP1_ADSD
 
@@ -65,6 +70,7 @@ verifica_rodada_de_testes: contabiliza as rodadas de testes, e incrementa a vari
 checa_latencia: verifica se o sistema terminou um diagnóstico completo.
 
 
+----------------------
 
 Logs de saída dos programa tp1_adsd.c:
 
