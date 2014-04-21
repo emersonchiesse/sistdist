@@ -1,0 +1,171 @@
+adicionando nodo falho 3 no tempo 10
+adicionando nodo falho 5 no tempo 10
+O nodo 3 falhou no tempo  10.0
+O nodo 5 falhou no tempo  10.0
+----------------------------
+t( 30.0): testes do nodo 0 
+
+testando o nodo 1:. seu estado anterior era: -1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 6 mensagens
+recuperando state de 1
+n 0 [0]:1 
+n 0 [1]:-1 
+n 0 [2]:-1 
+n 0 [3]:-1 
+n 0 [4]:-1 
+n 0 [5]:-1 
+n 0 [6]:-1 
+n 0 [7]:-1 
+
+nao terminou rodada de testes.
+----------------------------
+t( 30.0): testes do nodo 1 
+
+testando o nodo 2:. seu estado anterior era: -1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 12 mensagens
+recuperando state de 2
+n 1 [0]:1 
+n 1 [1]:2 
+n 1 [2]:-1 
+n 1 [3]:-1 
+n 1 [4]:-1 
+n 1 [5]:-1 
+n 1 [6]:-1 
+n 1 [7]:-1 
+
+nao terminou rodada de testes.
+----------------------------
+t( 30.0): testes do nodo 2 
+
+testando o nodo 3:. seu estado anterior era: -1. agora com falha.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 18 mensagens
+
+testando o nodo 4:. seu estado anterior era: -1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 24 mensagens
+recuperando state de 4
+n 2 [0]:1 
+n 2 [1]:2 
+n 2 [2]:4 
+n 2 [3]:1 
+n 2 [4]:-1 
+n 2 [5]:-1 
+n 2 [6]:-1 
+n 2 [7]:-1 
+
+nao terminou rodada de testes.
+----------------------------
+t( 30.0): testes do nodo 4 
+
+testando o nodo 5:. seu estado anterior era: -1. agora com falha.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 30 mensagens
+
+testando o nodo 6:. seu estado anterior era: -1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 36 mensagens
+recuperando state de 6
+n 4 [0]:1 
+n 4 [1]:2 
+n 4 [2]:4 
+n 4 [3]:1 
+n 4 [4]:6 
+n 4 [5]:1 
+n 4 [6]:-1 
+n 4 [7]:-1 
+
+nao terminou rodada de testes.
+----------------------------
+t( 30.0): testes do nodo 6 
+
+testando o nodo 7:. seu estado anterior era: -1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 42 mensagens
+recuperando state de 7
+n 6 [0]:1 
+n 6 [1]:2 
+n 6 [2]:4 
+n 6 [3]:1 
+n 6 [4]:6 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:-1 
+
+nao terminou rodada de testes.
+----------------------------
+t( 30.0): testes do nodo 7 
+
+testando o nodo 0:. seu estado anterior era: 1. agora sem falha. encerra testes de outros nodos.
+mudou estado do nodo. enviando mensagens para outros nodos sem falha...
+atualizando estado no nodo 0
+atualizando estado no nodo 1
+atualizando estado no nodo 2
+atualizando estado no nodo 4
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 48 mensagens
+recuperando state de 0
+n 7 [0]:1 
+n 7 [1]:2 
+n 7 [2]:4 
+n 7 [3]:1 
+n 7 [4]:6 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 1
+6 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 1 
+outro nodo sem falha: 2 
+outro nodo sem falha: 4 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
