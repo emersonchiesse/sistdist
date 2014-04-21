@@ -273,7 +273,6 @@ main ( int argc, char *argv[]){
 			else
 				printf ("nao terminou diag.\n\n");
 
-			report();
             schedule (test, 30.0, token);
 
             break;
