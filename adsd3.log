@@ -1,6 +1,12 @@
+Implementacao do algoritmo Adaptive-DSD.
+executando sistema de 8 nodos
+
 adicionando nodo falho 3 no tempo 10
 adicionando nodo falho 5 no tempo 10
 adicionando nodo falho 6 no tempo 10
+
+Inicio de execucao!
+----------------------
 O nodo 3 falhou no tempo  10.0
 O nodo 5 falhou no tempo  10.0
 O nodo 6 falhou no tempo  10.0
