@@ -112,7 +112,9 @@ envia_msg: implementa a difusao confiavel. Envia "mensagens" a todos os nodos, a
 ----------------------
 
 Os Logs de saída dos programa tp1_adsd.c, para cada caso, sao: 
+
 . um evento: adsd1.log
+https://github.com/emersonchiesse/sistdist/blob/master/adsd.log
   
   sistema de 8 nodos, com o nodo 3 falho.
 
