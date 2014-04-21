@@ -64,6 +64,21 @@ o sistema executará 200 unidades de tempo, com 8 nodos, e o nodo 1 falha no mom
 
 CONSIDERAÇÕES SOBRE O TP1_ADSD
 
+Enunciado:
+"implementar o algoritmo Adaptive-DSD utilizando o SMPL. 
+     Entretanto, a cada vez que um evento é detectado (nodo falho se recupera ou nodo sem-falha 
+     fica falho) o testador dispara o envio da informação para os demais nodos utilizando o 
+     algoritmo clássico da difusão confiável: todos os nodos enviam a mensagem para todos 
+     os demais, exceto para aquele nodo de quem a recebeu. 
+     Ao final de cada execução vc deve mostrar a latência de diagnóstico, 
+     bem como o número de mensagens de disseminação de eventos. 
+     No log, mostre cuidadosamente resultados para 1 (hum) evento, seguidos de resultados 
+     para 2 e 3 eventos simultâneos. No relatório descreva cuidadosamente como foi 
+     simulado o envio de mensagens e todas as outras decisões chave que tiveram que ser 
+     tomadas na implementação do trabalho."
+     
+
+Detalhes da implementação:
 
 . não foi implementado tratamento de erros na inserção dos parâmetros na execução do programa, ou seja, todos os parêmetros devem ser inseridos corretamente, caso contrário, poderão ocorrer falha na execução.
 
