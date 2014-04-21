@@ -1,0 +1,1878 @@
+adicionando nodo falho 1 no tempo 10
+adicionando nodo falho 4 no tempo 10
+adicionando nodo falho 5 no tempo 10
+O nodo 1 falhou no tempo  10.0
+O nodo 4 falhou no tempo  10.0
+O nodo 5 falhou no tempo  10.0
+----------------------------
+t( 30.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: -1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 5 mensagens
+testando o nodo 2:. seu estado anterior era: -1.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 10 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:-1 
+n 0 [3]:-1 
+n 0 [4]:-1 
+n 0 [5]:-1 
+n 0 [6]:-1 
+n 0 [7]:-1 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 0 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      30.000
+                                                          INTERVAL:      30.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 30.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: -1.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 15 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:-1 
+n 2 [4]:-1 
+n 2 [5]:-1 
+n 2 [6]:-1 
+n 2 [7]:-1 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 0 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      30.000
+                                                          INTERVAL:      30.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 30.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: -1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 20 mensagens
+testando o nodo 5:. seu estado anterior era: -1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 25 mensagens
+testando o nodo 6:. seu estado anterior era: -1.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 30 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:-1 
+n 3 [7]:-1 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 0 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      30.000
+                                                          INTERVAL:      30.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 30.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: -1.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 35 mensagens
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:-1 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 0 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      30.000
+                                                          INTERVAL:      30.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 30.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 40 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 1
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      30.000
+                                                          INTERVAL:      30.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 60.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 45 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 50 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      60.000
+                                                          INTERVAL:      60.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 60.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: 6.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 55 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:6 
+n 2 [4]:1 
+n 2 [5]:1 
+n 2 [6]:7 
+n 2 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      60.000
+                                                          INTERVAL:      60.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 60.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 60 mensagens
+testando o nodo 5:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 65 mensagens
+testando o nodo 6:. seu estado anterior era: 7.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 70 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:7 
+n 3 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      60.000
+                                                          INTERVAL:      60.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 60.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: 0.
+sem falha.
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 1 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      60.000
+                                                          INTERVAL:      60.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 60.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 75 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 2
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 2 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      60.000
+                                                          INTERVAL:      60.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 90.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 80 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 85 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 2 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      90.000
+                                                          INTERVAL:      90.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 90.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: 6.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 90 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:6 
+n 2 [4]:1 
+n 2 [5]:1 
+n 2 [6]:7 
+n 2 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 2 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      90.000
+                                                          INTERVAL:      90.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 90.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 95 mensagens
+testando o nodo 5:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 100 mensagens
+testando o nodo 6:. seu estado anterior era: 7.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 105 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:7 
+n 3 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 2 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      90.000
+                                                          INTERVAL:      90.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 90.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: 0.
+sem falha.
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 2 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      90.000
+                                                          INTERVAL:      90.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t( 90.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 110 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 3
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 3 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:      90.000
+                                                          INTERVAL:      90.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(120.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 115 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 120 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 3 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     120.000
+                                                          INTERVAL:     120.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(120.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: 6.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 125 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:6 
+n 2 [4]:1 
+n 2 [5]:1 
+n 2 [6]:7 
+n 2 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 3 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     120.000
+                                                          INTERVAL:     120.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(120.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 130 mensagens
+testando o nodo 5:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 135 mensagens
+testando o nodo 6:. seu estado anterior era: 7.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 140 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:7 
+n 3 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 3 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     120.000
+                                                          INTERVAL:     120.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(120.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: 0.
+sem falha.
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 3 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     120.000
+                                                          INTERVAL:     120.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(120.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 145 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 4
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 4 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     120.000
+                                                          INTERVAL:     120.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(150.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 150 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 155 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 4 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     150.000
+                                                          INTERVAL:     150.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(150.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: 6.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 160 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:6 
+n 2 [4]:1 
+n 2 [5]:1 
+n 2 [6]:7 
+n 2 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 4 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     150.000
+                                                          INTERVAL:     150.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(150.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 165 mensagens
+testando o nodo 5:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 170 mensagens
+testando o nodo 6:. seu estado anterior era: 7.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 175 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:7 
+n 3 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 4 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     150.000
+                                                          INTERVAL:     150.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(150.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: 0.
+sem falha.
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 4 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     150.000
+                                                          INTERVAL:     150.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(150.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 180 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 5
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 5 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     150.000
+                                                          INTERVAL:     150.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(180.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 185 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 190 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 5 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     180.000
+                                                          INTERVAL:     180.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(180.0): testes do nodo 2 
+testando o nodo 3:. seu estado anterior era: 6.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 195 mensagens
+recuperando state de 3
+n 2 [0]:2 
+n 2 [1]:1 
+n 2 [2]:3 
+n 2 [3]:6 
+n 2 [4]:1 
+n 2 [5]:1 
+n 2 [6]:7 
+n 2 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 5 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     180.000
+                                                          INTERVAL:     180.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(180.0): testes do nodo 3 
+testando o nodo 4:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 200 mensagens
+testando o nodo 5:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 205 mensagens
+testando o nodo 6:. seu estado anterior era: 7.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 210 mensagens
+recuperando state de 6
+n 3 [0]:2 
+n 3 [1]:1 
+n 3 [2]:3 
+n 3 [3]:6 
+n 3 [4]:1 
+n 3 [5]:1 
+n 3 [6]:7 
+n 3 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 5 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     180.000
+                                                          INTERVAL:     180.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(180.0): testes do nodo 6 
+testando o nodo 7:. seu estado anterior era: 0.
+sem falha.
+recuperando state de 7
+n 6 [0]:2 
+n 6 [1]:1 
+n 6 [2]:3 
+n 6 [3]:6 
+n 6 [4]:1 
+n 6 [5]:1 
+n 6 [6]:7 
+n 6 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 5 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     180.000
+                                                          INTERVAL:     180.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(180.0): testes do nodo 7 
+testando o nodo 0:. seu estado anterior era: 2.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 215 mensagens
+recuperando state de 0
+n 7 [0]:2 
+n 7 [1]:1 
+n 7 [2]:3 
+n 7 [3]:6 
+n 7 [4]:1 
+n 7 [5]:1 
+n 7 [6]:7 
+n 7 [7]:0 
+
+terminou rodada 6
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 6 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     180.000
+                                                          INTERVAL:     180.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
+----------------------------
+t(210.0): testes do nodo 0 
+testando o nodo 1:. seu estado anterior era: 1.
+com falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 220 mensagens
+testando o nodo 2:. seu estado anterior era: 3.
+sem falha.
+mudou estado do nodo. enviando mensagens...
+atualizando estado no nodo 0
+atualizando estado no nodo 2
+atualizando estado no nodo 3
+atualizando estado no nodo 6
+atualizando estado no nodo 7
+enviou 225 mensagens
+recuperando state de 2
+n 0 [0]:2 
+n 0 [1]:1 
+n 0 [2]:3 
+n 0 [3]:6 
+n 0 [4]:1 
+n 0 [5]:1 
+n 0 [6]:7 
+n 0 [7]:0 
+
+nao terminou rodada de testes.
+5 nodos sem falha.
+primeiro nodo sem falha: 0 
+outro nodo sem falha: 2 
+outro nodo sem falha: 3 
+outro nodo sem falha: 6 
+outro nodo sem falha: 7 
+terminou diag, com latencia de 6 rodadas.
+
+
+                             smpl SIMULATION REPORT
+
+
+ MODEL: implementacao de A-DSD                                TIME:     210.000
+                                                          INTERVAL:     210.000
+
+                           MEAN BUSY     MEAN QUEUE        OPERATION COUNTS
+ FACILITY          UTIL.     PERIOD        LENGTH     RELEASE   PREEMPT   QUEUE
+ 0                0.0000      0.000         0.000           0         0       0
+ 1                0.0000      0.000         0.000           0         0       0
+ 2                0.0000      0.000         0.000           0         0       0
+ 3                0.0000      0.000         0.000           0         0       0
+ 4                0.0000      0.000         0.000           0         0       0
+ 5                0.0000      0.000         0.000           0         0       0
+ 6                0.0000      0.000         0.000           0         0       0
+ 7                0.0000      0.000         0.000           0         0       0
+
+
+
+
+
+
+
+
+
