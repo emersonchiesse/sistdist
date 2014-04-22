@@ -1,6 +1,7 @@
 SISTEMAS DISTRIBUÍDOS
 
-Este repositório contém informações sobre Trabalhos Práticos da disciplina CI721 - Sistemas Distribuídos, na UFPR, em curso no 1o semestre de 2014.
+Este repositório contém informações sobre Trabalhos Práticos da disciplina CI721 - Sistemas Distribuídos, na UFPR, 
+em curso no 1o semestre de 2014.
 
 
 Os programas desenvolvidos usam a biblioteca SMPL, de simulação de eventos em nodos.
