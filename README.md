@@ -8,10 +8,12 @@ Os programas desenvolvidos usam a biblioteca SMPL, de simulação de eventos em 
 
 ---------------------
 
-Contém os seguintes arquivos:
+Este repositório contém os seguintes arquivos:
 
 
 makefile - compila todos os programas.
+
+tp1_adsd.c - implementação do algoritmo adaptive-DSD, com reliable broadcast de mensagens em novos eventos.
 
 tp1_1.c - trabalho prático 1, tarefa 1: testa somente o proximo no anel.
 
@@ -21,7 +23,6 @@ tp1_3.c - tarefa 3: cada nodo mantem um vetor local state [0..N-1] e atualiza as
 
 tp1_4.c - tarefa 4:cada nodo ao testar um nodo sem falha, o testador obtem info sobre todos os nodos que nao testou.
 
-tp1_adsd.c - implementação do algoritmo adaptive-DSD, com reliable broadcast de mensagens em novos eventos.
 
 smpl.h e smpl.c: biblioteca de simulação SMPL
 
@@ -31,6 +32,7 @@ adsd2.log - log de execução do adsptive-DSD para dois eventos de falha.
 
 adsd3.log - log de execução do adsptive-DSD para tres eventos de falha.
 
+--------------
 
 Para compilar todos os programas, basta baixar todos os arquivos e executar o make:
 
@@ -45,7 +47,7 @@ make
 
 -----------------------
 
-Para executar os programas:
+Para executar o programa:
 
 tp1_adsd, use a seguinte sintaxe:
 
