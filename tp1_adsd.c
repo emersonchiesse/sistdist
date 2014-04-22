@@ -168,9 +168,9 @@ main ( int argc, char *argv[]){
     token, event, r, i, j, k;
     int tempo;
     static char fa_name[5];
-    int rodadas = 0;
-    int mensagens = 0;
-
+    int rodadas = 0;     // numero de rodadas de testes
+    int mensagens = 0;   // numero de mensagens de broadcast
+    int encerra = false; // indicacao para encerrar o programa
 
     if (argc < 2){
         printf ("Uso correto: %s <tempo_total> <num-nodos> <nodo falho 1> <tempo da falha 1> <nodo falho 2> <tempo da falha 2> ...\n\n", argv[0]);
@@ -179,6 +179,10 @@ main ( int argc, char *argv[]){
 
     N = atoi(argv[2]);
     tempo = atoi(argv[1]);
+
+    printf ("Implementacao do algoritmo Adaptive-DSD.\n");
+    printf ("executando sistema de %d nodos\n", N);
+    printf ("\n");
 
     smpl (0, "implementacao de A-DSD");
     reset ();
@@ -214,9 +218,13 @@ main ( int argc, char *argv[]){
     //schedule (fault, 31.0, 0);
     //schedule (repair, 61.0, 0);
 
+    printf ("\nInicio de execucao!\n");
+    printf ("----------------------\n");
+
+    encerra = false;
     /* #4 cada nodo ao testar um nodo sem falha, o testador obtem info sobre todos os nodos
      * que nao testou*/
-    while (time() < tempo){
+    while ((time() < tempo) && (!encerra)){
         cause (&event,&token);
         switch (event){
         case test:
@@ -285,7 +293,8 @@ main ( int argc, char *argv[]){
 
 				if (checa_latencia (nodo, N))
 				{
-					printf ("terminou diag, com latencia de %d rodadas.\n\n", rodadas);
+					printf ("terminou diag, com latencia de %d rodadas e %d mensagens.\n\n", rodadas, mensagens);
+					encerra = true;
 				}
 				else
 					printf ("nao terminou diag.\n\n");
